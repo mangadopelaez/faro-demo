@@ -1,0 +1,48 @@
+.alert-card {
+
+  justify-content: center;
+  
+  background: rgba(255,255,255,0.06);
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  border-radius: 30px;
+
+  padding: 28px;
+
+  backdrop-filter: blur(12px);
+
+  transition: all 0.25s ease;
+  
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+.alerts-mini-card.critical {
+
+  border-color: rgba(255, 90, 90, 0.28);
+
+  box-shadow:
+    0 0 25px rgba(255, 90, 90, 0.12);
+
+}
+
+.alerts-mini-card.warning {
+
+  border-color: rgba(255, 196, 0, 0.25);
+
+  box-shadow:
+    0 0 25px rgba(255, 196, 0, 0.08);
+
+}
+
+.alerts-mini-card.stable {
+
+  border-color: rgba(0, 255, 153, 0.22);
+
+  box-shadow:
+    0 0 25px rgba(0, 255, 153, 0.08);
+
+}
