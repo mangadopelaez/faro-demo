@@ -6,6 +6,16 @@ function Landing() {
 
       <div className="landing-hero">
 
+        <div className="landing-brand-mark">
+  <div className="landing-brand-icon">
+    F
+  </div>
+
+  <span>
+    FARO
+  </span>
+</div>
+
         <p className="landing-badge">
           FARO · GovTech Predictivo
         </p>
