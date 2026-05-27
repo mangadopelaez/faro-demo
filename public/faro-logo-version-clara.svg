@@ -1,0 +1,68 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>FARO logo light version</title>
+
+  <defs>
+    <linearGradient id="blue" x1="40" y1="220" x2="290" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563FF"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+
+    <linearGradient id="beam" x1="178" y1="91" x2="340" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.15
+                0 0 0 0 0.39
+                0 0 0 0 1
+                0 0 0 0.35 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- Transparent background -->
+
+  <!-- Lighthouse radar rings -->
+  <circle cx="118" cy="72" r="56" stroke="#2563FF" stroke-width="5" opacity="0.15"/>
+  <circle cx="118" cy="72" r="39" stroke="#2563FF" stroke-width="5" opacity="0.22"/>
+  <circle cx="118" cy="72" r="22" stroke="#2563FF" stroke-width="5" opacity="0.32"/>
+
+  <!-- Lighthouse body -->
+  <g filter="url(#softGlow)">
+    <path d="M84 215L105 89H141L162 215L124 194L84 215Z" fill="#071426"/>
+
+    <path d="M98 132L145 116L149 141L92 160L98 132Z" fill="url(#blue)"/>
+    <path d="M91 176L153 156L157 181L86 204L91 176Z" fill="url(#blue)"/>
+
+    <rect x="92" y="78" width="64" height="14" rx="4" fill="#071426"/>
+    <rect x="101" y="55" width="45" height="29" rx="8" fill="#071426"/>
+    <rect x="111" y="62" width="10" height="20" rx="2" fill="#E0F2FE"/>
+    <rect x="128" y="62" width="10" height="20" rx="2" fill="#E0F2FE"/>
+    <path d="M94 59C100 39 148 39 154 59H94Z" fill="#071426"/>
+    <rect x="118" y="31" width="8" height="14" rx="4" fill="#071426"/>
+    <circle cx="122" cy="29" r="5" fill="#071426"/>
+
+    <!-- Beam -->
+    <path d="M153 70L346 32V90L153 82V70Z" fill="url(#beam)"/>
+  </g>
+
+  <!-- Wave -->
+  <path d="M40 224C91 191 141 247 204 210C173 241 84 245 40 224Z" fill="#071426"/>
+
+  <!-- Wordmark -->
+  <g fill="#071426">
+    <path d="M272 64H393V92H306V122H378V150H306V205H272V64Z"/>
+    <path d="M455 64H493L557 205H520L506 172H440L426 205H390L455 64ZM495 145L473 94L451 145H495Z"/>
+    <path d="M579 64H647C667 64 683 69 694 80C704 90 709 103 709 119C709 141 697 157 677 164L716 205H675L641 169H613V205H579V64ZM645 141C664 141 675 133 675 119C675 104 664 96 644 96H613V141H645Z"/>
+    <path d="M805 208C761 208 730 176 730 135C730 94 762 61 806 61C850 61 881 93 881 134C881 175 849 208 805 208ZM806 176C829 176 846 158 846 135C846 112 829 93 805 93C782 93 765 111 765 134C765 157 782 176 806 176Z"/>
+  </g>
+
+  <!-- Tagline -->
+  <text x="274" y="238" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="6" fill="#2563FF">
+    ANTICIPAR · VISUALIZAR · DECIDIR
+  </text>
+</svg>

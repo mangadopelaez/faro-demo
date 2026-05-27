@@ -7,13 +7,17 @@ function Landing() {
       <div className="landing-hero">
 
         <div className="landing-brand-mark">
-  <div className="landing-brand-icon">
-    F
-  </div>
+
+  <img
+    src="/faro-icon-only.svg"
+    alt="FARO"
+    className="landing-brand-logo"
+  />
 
   <span>
     FARO
   </span>
+
 </div>
 
         <p className="landing-badge">

@@ -9137,17 +9137,10 @@ background-size:
   margin-bottom: 28px;
 }
 
-.landing-brand-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, #2563ff, #60a5fa);
-  color: #ffffff;
-  font-size: 1.35rem;
-  font-weight: 900;
-  box-shadow: 0 0 34px rgba(37, 99, 255, 0.42);
+.landing-brand-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
 }
 
 .landing-brand-mark span {

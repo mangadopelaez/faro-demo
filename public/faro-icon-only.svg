@@ -1,0 +1,44 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>FARO lighthouse icon</title>
+
+  <defs>
+    <linearGradient id="blue" x1="70" y1="210" x2="190" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563FF"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+
+    <linearGradient id="beam" x1="135" y1="75" x2="245" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563FF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Radar rings -->
+  <circle cx="86" cy="70" r="52" stroke="#2563FF" stroke-width="4" opacity="0.16"/>
+  <circle cx="86" cy="70" r="36" stroke="#2563FF" stroke-width="4" opacity="0.25"/>
+  <circle cx="86" cy="70" r="20" stroke="#2563FF" stroke-width="4" opacity="0.35"/>
+
+  <!-- Lighthouse -->
+  <path d="M60 214L78 92H112L130 214L96 193L60 214Z" fill="#071426"/>
+
+  <path d="M72 132L115 118L118 142L67 158L72 132Z" fill="url(#blue)"/>
+  <path d="M65 174L122 155L126 180L60 202L65 174Z" fill="url(#blue)"/>
+
+  <rect x="68" y="80" width="54" height="12" rx="4" fill="#071426"/>
+  <rect x="76" y="58" width="38" height="26" rx="7" fill="#071426"/>
+
+  <rect x="84" y="64" width="8" height="18" rx="2" fill="#E0F2FE"/>
+  <rect x="98" y="64" width="8" height="18" rx="2" fill="#E0F2FE"/>
+
+  <path d="M70 62C75 43 115 43 120 62H70Z" fill="#071426"/>
+
+  <rect x="90" y="36" width="6" height="12" rx="3" fill="#071426"/>
+  <circle cx="93" cy="33" r="4" fill="#071426"/>
+
+  <!-- Light beam -->
+  <path d="M121 69L246 42V95L121 84V69Z" fill="url(#beam)"/>
+
+  <!-- Wave -->
+  <path d="M18 225C60 198 104 244 154 212C128 239 58 241 18 225Z" fill="#071426"/>
+</svg>
